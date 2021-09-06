@@ -3,7 +3,6 @@ import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
-import { Fragment } from "react";
 
 function App() {
   return (
@@ -14,11 +13,11 @@ function App() {
         <div className="row px-3">
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Taxa de Sucesso</h5>
-            <BarChart />
+            <DonutChart />
           </div>
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Todas de Sucesso</h5>
-            <DonutChart />
+            <BarChart />
           </div>
         </div>
 
